@@ -333,6 +333,7 @@ $(function(){
     });
     //个人站二维码
     $(".erweima").hover(function(){
+        $(this).finish();
         $(this).animate({"right":"0px"},600);
     },function(){
         if($(window).outerWidth<700){
